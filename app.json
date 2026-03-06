@@ -1,0 +1,52 @@
+{
+  "configVersion": "v3",
+  "defaultLanguage": "en-US",
+  "app": {
+    "appId": 1107859,
+    "appName": "Stretch Reminder",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.0"
+    },
+    "icon": "icon.png",
+    "vender": "Asim Husanovic",
+    "description": "Reminds you to stretch with random exercises"
+  },
+  "permissions": ["device:os.alarm", "device:os.local_storage", "device:os.display"],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "3.0.0",
+      "target": "3.0.0",
+      "minVersion": "3.0.0"
+    }
+  },
+  "targets": {
+    "amazfit-active-max": {
+      "module": {
+        "page": {
+          "pages": [
+            "pages/home/index",
+            "pages/stretch/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "GenevaWN",
+          "deviceSource": 10813697
+        },
+        {
+          "name": "GenevaW",
+          "deviceSource": 10813699
+        }
+      ],
+      "designWidth": 480
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Stretch"
+    }
+  }
+}

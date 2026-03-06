@@ -1,0 +1,7 @@
+# ZeppOS i18n localization file
+# This .po file provides English translations.
+# To add more languages, create additional folders like de-DE, bs-BA, etc.
+# See: https://docs.zepp.com/docs/reference/app-json/ (i18n section)
+
+msgid "appName"
+msgstr "Stretch"
