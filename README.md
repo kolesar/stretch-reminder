@@ -1,6 +1,22 @@
 # Stretch Reminder
 
+<img src="docs/icon.png" width="80" align="right" alt="Stretch Reminder icon">
+
 A ZeppOS Mini Program for the **Amazfit Active Max** smartwatch that reminds you to stretch at regular intervals throughout the workday. Each reminder picks a random exercise from a library of 12 guided stretches, shows an animated countdown timer, and automatically schedules the next alarm.
+
+<br clear="right">
+
+---
+
+## Screenshots
+
+| App Menu | Settings |
+|:---:|:---:|
+| ![App appears in the watch launcher](docs/menu.png) | ![Configure active days, time window and interval](docs/settings_1.png) |
+
+| Save & Start | Exercise |
+|:---:|:---:|
+| ![Save settings and jump straight into a stretch](docs/settings_2.png) | ![Exercise page with countdown arc and instructions](docs/stretch_board.png) |
 
 ---
 
@@ -38,22 +54,11 @@ stretch-reminder/
 │   ├── home/index.js             # Settings page: days, time window, interval, Save & Start
 │   ├── stretch/index.js          # Exercise page: arc timer, illustration, Done / Next
 │   └── i18n/en-US.po             # English locale strings
-└── assets/
-    └── amazfit-active-max/
-        ├── icon.png              # App icon
-        └── exercises/            # 12 exercise illustrations (200 × 140 px PNG)
-            ├── neck_roll.png
-            ├── shoulder_shrug.png
-            ├── chest_opener.png
-            ├── seated_twist.png
-            ├── wrist_circles.png
-            ├── standing_quad.png
-            ├── forward_fold.png
-            ├── cat_cow.png
-            ├── hip_flexor.png
-            ├── calf_raise.png
-            ├── side_bend.png
-            └── ankle_circles.png
+├── assets/
+│   └── amazfit-active-max/
+│       ├── icon.png              # App icon
+│       └── exercises/            # 12 exercise illustrations (200 × 140 px PNG)
+└── docs/                         # Screenshots used in this README
 ```
 
 ---
